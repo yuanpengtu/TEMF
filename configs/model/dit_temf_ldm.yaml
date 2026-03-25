@@ -1,0 +1,9 @@
+defaults:
+  - dit_temf.yaml
+  - base-lgm.yaml
+  - _self_
+
+target_class: src.training.networks.LatentDiffusion
+autoencoder_ckpt:
+  snapshot_path: ${env.project_path}/checkpoints/sd_vae_ft_ema.pt
+  convert_params_to_buffers: false

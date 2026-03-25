@@ -1,0 +1,15 @@
+defaults:
+  - recflow.yaml
+  - _self_
+
+name: recflow
+num_steps: 1
+eps: 0.0
+sigma_noise: 1.0
+time_shifting: 0.85
+enable_trajectory_sampling: true
+enable_consistency_sampling: false
+cfg:
+  scale: 1.0
+  t_min: 0.0
+  t_max: 1.0

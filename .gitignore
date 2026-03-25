@@ -1,0 +1,42 @@
+# Model checkpoints / artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+
+# Training outputs
+/output/
+/experiments/
+/wandb/
+
+# Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+.DS_Store
+
+# Local user-specific config
+configs/env/user.yaml
+
+# If git metadata accidentally lives in the working tree root, ignore it
+/objects/
+/refs/
+/logs/
+/hooks/
+/info/
+/packed-refs
+/HEAD
+/config
+/description
+/index
+/ORIG_HEAD
+/FETCH_HEAD
+/COMMIT_EDITMSG
+
+# Legacy rule kept
+snap-research/alphaflow/*.pt
+.claude/settings.local.json
