@@ -1,6 +1,6 @@
 # Temporal Equilibrium MeanFlow
 
-PyTorch implementation of **Temporal Equilibrium MeanFlow (TEMF)** for one-step image generation, built on top of the AlphaFlow codebase.
+PyTorch implementation of **Temporal Equilibrium MeanFlow (TEMF)**, built on top of the AlphaFlow codebase.
 
 <p align="center">
   <img src="imgs/fig.png" alt="TEMF teaser" width="100%">
